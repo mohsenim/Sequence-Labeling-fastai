@@ -6,4 +6,7 @@ format:
 	isort .
 	black .
 
-all: install format
+lint:
+	pylint --disable=R,C,W **/*.py
+
+all: install format lint
