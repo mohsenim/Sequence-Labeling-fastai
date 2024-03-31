@@ -36,7 +36,6 @@ class SequentialCategory(L):
 
 
 def SequentialCategoryBlock(
-    encoded: bool = False,  # Whether the data comes in one-hot encoded
     vocab: MutableSequence | pd.Series = None,  # List of unique class names
     add_na: bool = False,  # Add `#na#` to `vocab`
 ):
