@@ -24,7 +24,7 @@ jobs:
       uses: isort/isort-action@v1
     - name: Format code black
       uses: psf/black@stable
-    - name pylint
+    - name: pylint
       run: |
           pip install pylint
         	pylint --disable=R,C,W **/*.py
