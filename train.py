@@ -1,8 +1,9 @@
 from pathlib import Path
 
+from fastai.text.all import *
+
 import learner_ext
 from data_ext import SequentialTextBlock
-from fastai.text.all import *
 from transforms_ext import *
 
 

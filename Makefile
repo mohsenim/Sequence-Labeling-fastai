@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 format:
-	isort **/*.py
-	black **/*.py
+	isort .
+	black .
 
-all: install lint format
+all: install format

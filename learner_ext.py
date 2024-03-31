@@ -1,5 +1,6 @@
-from core_ext import *
 from fastai.text.all import *
+
+from core_ext import *
 
 
 @delegates(Learner.__init__)

@@ -22,5 +22,7 @@ jobs:
         make install
     - name: Format code
       uses: isort/isort-action@v1
+      uses: psf/black@stable
+
 
     
